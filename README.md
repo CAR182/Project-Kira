@@ -8,4 +8,4 @@ is visually satisfying.
 This project was made in ~2022 and I haven't really touched it since so it's likely things are out of date and like I said, it was training module
 not a professional development piece so take some of the approaches with a pinch of salt but maybe you'll learn something. Enjoy!
 
-![alt text](https://github.com/CAR182/Project-Kira/blob/main/notes/Main.PNG?raw=true)
+![alt text](https://github.com/CAR182/Project-Kira/blob/main/Notes/Main.PNG?raw=true)

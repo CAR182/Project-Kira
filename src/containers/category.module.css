@@ -1,0 +1,50 @@
+.container {
+    composes: container from '../common.module.css';
+    padding-top: 50px;
+    animation: onLoad 1.5s ease-in-out forwards;
+}
+
+
+@keyframes onLoad {
+    0% {
+      opacity: 0;
+    }
+    100% {
+        opacity: 0.75;
+    }
+}
+
+
+.video{
+    position: fixed;
+    width: 100%;    
+    opacity: 0.5;
+    right: 0px;
+    top: 0px;
+    left: 0px;
+    transition: opacity 1000ms ease 0s;
+}
+
+.title {
+    font-size: 44px;
+    letter-spacing: .11px;
+    line-height: 1.2;
+    text-transform: capitalize;
+}
+
+.tiles{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+@media (max-width: 1000px) {
+    .tiles{
+    justify-content: center;
+    }
+  }
+  
+  @media (max-width: 400px) {
+   
+  }
+  

@@ -1,0 +1,89 @@
+.navBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 70px;
+    background-color: #18181836;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    letter-spacing: 16px;
+    z-index: 3;
+}
+
+.logo{
+    padding: 0;
+    width: 80px;
+    margin-top: 4px;
+    max-height: 70px;
+    font-size: 0;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.navBtns{
+    align-items: center;
+    display: flex;
+    flex-flow: row noWrap;
+    height: 100%;
+    justify-content: flex-end;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    margin-right: auto;
+    margin-left: 25px;
+}
+
+.loginBtn{
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 8px 16px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    border: 1px solid #f9f9f9;
+    border-radius: 4px;
+    transition: all 0.2s ease 0s;
+}
+
+.loginBtn:hover{
+    background-color: #f9f9f9;
+    color: black;
+    border-color: transparent;
+}
+
+
+
+
+/*Login/LogOut*/
+.userMenu{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.userMenu > img{
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  background-color: rgba(128,128,128,1);
+  transition: border 0.2s ease 0s;
+} 
+.userMenu > img:hover{
+  border: 2px solid #ffffff;
+}
+.userMenu > span{
+  color: rgb(249, 249, 249);
+  font-size: 15px;
+  letter-spacing: 1.42px;
+  line-height: 1.08;
+  padding: 2px 0px;
+  white-space: nowrap;
+  position: relative;
+  margin-right: 10px;
+}
+
+/* Mobile Screen*/
+@media (max-width: 500px) {
+  .navBtns{ display: none}
+}

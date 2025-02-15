@@ -1,0 +1,47 @@
+
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.loading > div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border: 8px solid #fff;
+    border-radius: 50%;
+    animation: loading 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: rgba(106, 183, 255,1) transparent transparent transparent;
+  }
+
+  .loading div:nth-child(1) {
+    animation-delay: -0.45s;
+    border-color: rgba(106, 183, 2550.95) transparent transparent transparent;
+  
+  }
+  .loading div:nth-child(2) {
+    animation-delay: -0.3s;
+    border-color: rgba(106, 183, 255,0.9) transparent transparent transparent;
+  
+  }
+  .loading div:nth-child(3) {
+    animation-delay: -0.15s;
+    border-color: rgba(106, 183, 255,0.0.85) transparent transparent transparent;
+  }
+  
+  @keyframes loading {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  

@@ -1,0 +1,94 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex-flow: row nowrap;
+    margin: 24px 0px;
+    min-height: 56px;
+}
+
+
+
+.playBtn, .trailerBtn{
+    font-size: 15px;
+    margin: 0px 22px 0px 0px;
+    padding: 0px 24px;
+    height: 56px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1.8px;
+    text-align: center;
+    text-transform: uppercase;
+    background: rgb(249, 249, 249);
+    border: none;
+    color: rgb(0, 0, 0);
+}
+
+.playBtn {
+    background: rgb(249, 249, 249,1);
+    border: none;
+    color: rgb(0, 0, 0);
+    transition: background .3s ease-out;
+
+}
+
+.playBtn:hover {
+    background: rgb(198, 198, 198);
+}
+
+.trailerBtn {
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgb(249, 249, 249);
+    color: rgb(249, 249, 249);
+    transition: background .3s ease-out;
+}
+.trailerBtn > img {
+    filter: invert(1);
+}
+.trailerBtn:hover {
+    background: rgba(232, 232, 232, 0.251);
+}
+
+.addBtn, .groupWatch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 16px;
+    height: 44px;
+    width: 44px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 50%;
+    border: 2px solid white;
+    cursor: pointer;  
+    transition: background .3s ease-out;
+}
+.addBtn:hover, .groupWatch:hover {
+    background: rgb(247, 247, 247,1);
+}
+.addBtn > img {
+    filter: invert(1);
+}
+
+
+.addBtn:hover  img{  
+    filter: invert(0); 
+}
+.groupWatch:hover  img{  
+    filter: invert(1); 
+}
+
+
+
+/* Mobile*/
+@media (max-width: 500px) {
+    .container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .container > * {
+        margin:10px
+    }
+}

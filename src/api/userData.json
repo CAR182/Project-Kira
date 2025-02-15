@@ -1,0 +1,27 @@
+[
+    {
+        "displayName": "Chris",
+        "avatar": "/images/avatars/deadpool.jpg"
+    },
+    {
+        "displayName": "Mum",
+        "avatar": "/images/avatars/incredible.jpg"
+    },
+    {
+        "displayName": "Grandma",
+        "avatar": "/images/avatars/baby-yoda.jpg"
+    },
+    {
+        "displayName": "Uncle Sam",
+        "avatar": "/images/avatars/groot.jpg"
+    },
+    {
+        "displayName": "Dad",
+        "avatar": "/images/avatars/homer.jpg"
+    },
+    {
+        "displayName": "James",
+        "avatar": "/images/avatars/stitch.jpg"
+    }
+
+]

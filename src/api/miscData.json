@@ -1,0 +1,58 @@
+{
+    "banners":[
+        {
+            "title": "The Simpsons",
+            "bannerImg":"https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/3636BA2905C2E6492971F9DCAF19DA9659CA7CF1C0FC51A9F22D851E1DBA6E9A/scale?width=2880&aspectRatio=3.91&format=jpeg"
+        },
+        {
+            "title": "Thor: Love and Thunder",
+            "bannerImg":"https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/16F2DFC4409EBC50788A6CAE40F5AD846C7563907303A712E2544B74A3722821/compose?width=2880&aspectRatio=3.91&format=jpeg&label=391_scrim"
+        },
+        {
+            "title": "Onward",
+            "bannerImg":"/images/banners/onward.jpg"
+        },
+        {
+            "title": "Wanda Vision",
+            "bannerImg":"/images/banners/wanda-vision.jpg"
+        }
+    ],
+    "filters": {
+        "disney":{
+            "image": "/images/disney.png",
+            "video": "/videos/disney.mp4"
+        },
+        "pixar":{
+            "image": "/images/pixar.png",
+            "video": "/videos/pixar.mp4"
+        },
+        "marvel":{
+            "image": "/images/marvel.png",
+            "video": "/videos/marvel.mp4"
+        },
+        "star-wars":{
+            "image": "/images/starwars.png",
+            "video": "/videos/star-wars.mp4"
+        },
+        "national":{
+            "image": "/images/national.png",
+            "video": "/videos/national.mp4"
+        }
+
+    },
+    "notFound":[
+        {
+            "img": "/images/404/404-sad.png",
+            "message":"What you are looking for must have been placed in Long Term Memory."
+        }, 
+        {
+            "img": "/images/404/404-mike.png",
+            "message":"You must have picked the wrong door because I haven't been able to lay my eye on the page you were looking for."
+        }, 
+        {
+            "img": "/images/404/404-walle.png",
+            "message": "Eeeeee...va?"
+        }
+    ]
+    
+}
